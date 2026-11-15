@@ -3,12 +3,82 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Alexius Dennis DIAKOGIANNIS</title>
-<meta name="description" content="Software Architect, Java & AI Technologist, Public Speaker. Founder of The Dark Side of IT series.">
+<title>Alexius Diakogiannis – Software Architect, Java &amp; AI Technologist, Speaker</title>
+<meta name="description" content="Alexius Diakogiannis (Alexius Dennis Diakogiannis) – Senior Solutions Architect at the EIB, Java &amp; AI technologist and public speaker. Founder of The Dark Side of IT.">
+<meta name="author" content="Alexius Diakogiannis">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://diakogiannis.github.io/">
 <meta name="theme-color" content="#07080c">
+
+<!-- Open Graph / social previews -->
 <meta property="og:type" content="profile">
-<meta property="og:title" content="Alexius Dennis Diakogiannis">
-<meta property="og:description" content="Software Architect, Java & AI Technologist, Public Speaker. Founder of The Dark Side of IT series.">
+<meta property="og:site_name" content="Alexius Diakogiannis">
+<meta property="og:url" content="https://diakogiannis.github.io/">
+<meta property="og:title" content="Alexius Diakogiannis – Software Architect, Java &amp; AI Technologist">
+<meta property="og:description" content="Senior Solutions Architect, Java &amp; AI technologist and public speaker. Founder of The Dark Side of IT.">
+<meta property="og:image" content="https://diakogiannis.github.io/profile.jpg">
+<meta property="og:image:alt" content="Alexius Diakogiannis">
+<meta property="profile:first_name" content="Alexius">
+<meta property="profile:last_name" content="Diakogiannis">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@diakogiannis">
+<meta name="twitter:creator" content="@diakogiannis">
+
+<!-- Identity links: tell search engines these profiles are the same person -->
+<link rel="me" href="https://thedark.ai/">
+<link rel="me" href="https://www.linkedin.com/in/diakogiannis/">
+<link rel="me" href="https://x.com/diakogiannis">
+<link rel="me" href="https://github.com/diakogiannis">
+<link rel="me" href="https://www.youtube.com/@JEE-gr">
+
+<!-- Structured data: Person -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "https://diakogiannis.github.io/",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://diakogiannis.github.io/#person",
+    "name": "Alexius Diakogiannis",
+    "givenName": "Alexius",
+    "familyName": "Diakogiannis",
+    "alternateName": [
+      "Alexius Dennis Diakogiannis",
+      "Alexius Dionysius Diakogiannis",
+      "Alexios Diakogiannis",
+      "Αλέξιος Διακογιάννης"
+    ],
+    "url": "https://diakogiannis.github.io/",
+    "image": "https://diakogiannis.github.io/profile.jpg",
+    "description": "Software architect who builds secure, resilient systems for banks and EU institutions, Java & AI technologist, public speaker and founder of The Dark Side of IT.",
+    "jobTitle": "Senior Solutions Architect & Squad Lead",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "European Investment Bank",
+      "url": "https://www.eib.org/"
+    },
+    "knowsAbout": [
+      "Software architecture",
+      "Java",
+      "Artificial intelligence",
+      "Information security",
+      "Digital forensics"
+    ],
+    "sameAs": [
+      "https://thedark.ai/",
+      "https://www.linkedin.com/in/diakogiannis/",
+      "https://x.com/diakogiannis",
+      "https://github.com/diakogiannis",
+      "https://speakerdeck.com/diakogiannis/",
+      "https://www.youtube.com/@JEE-gr",
+      "https://www.tiktok.com/@jee.gr",
+      "https://jee.gr/"
+    ]
+  }
+}
+</script>
+
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%2307080c'/%3E%3Cpath d='M14 46 L28 18 L32 26 M24 38 H34' stroke='%2300f0ff' stroke-width='5' fill='none' stroke-linecap='square'/%3E%3Cpath d='M38 18 H44 Q52 18 52 32 Q52 46 44 46 H38 Z' stroke='%23ff2bd6' stroke-width='5' fill='none'/%3E%3C/svg%3E">
 <style>
   :root {
@@ -104,7 +174,6 @@
     margin: 0 auto 22px;
   }
   .avatar::before {
-    /* static neon ring */
     content: "";
     position: absolute;
     inset: -4px;
@@ -113,7 +182,6 @@
     filter: drop-shadow(0 0 10px rgba(0, 240, 255, 0.45)) drop-shadow(0 0 18px rgba(255, 43, 214, 0.25));
   }
   .avatar::after {
-    /* rotating dashed HUD ring */
     content: "";
     position: absolute;
     inset: -13px;
@@ -149,7 +217,7 @@
 
   .name {
     position: relative;
-    margin: 0 0 10px;
+    margin: 0 0 6px;
     font-family: var(--mono);
     font-size: clamp(1.35rem, 6vw, 1.85rem);
     font-weight: 700;
@@ -168,6 +236,14 @@
   .name::before { color: var(--magenta); animation: glitch-a 7s infinite steps(1); }
   .name::after  { color: var(--cyan);    animation: glitch-b 7s infinite steps(1); }
 
+  .aka {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+    margin: 0 0 12px;
+  }
+
   .roles {
     font-family: var(--mono);
     font-size: 0.82rem;
@@ -185,6 +261,7 @@
   }
   .bio p { margin: 0 0 4px; }
   .bio strong { color: var(--text); font-weight: 600; }
+  .bio .lead { margin-bottom: 10px; }
 
   /* ---------- Sections ---------- */
   section { margin-top: 34px; }
@@ -220,7 +297,6 @@
   ul.links li:hover,
   ul.links li:focus-within { filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.35)); }
 
-  /* Cut-corner button: outer = border, inner = panel */
   .link {
     display: block;
     padding: 1px;
@@ -341,94 +417,4 @@
       <div class="avatar-inner">
         <span class="initials" aria-hidden="true">AD</span>
         <!-- Βάλε τη φωτογραφία σου με όνομα profile.jpg στον ίδιο φάκελο -->
-        <img src="profile.jpg" alt="Alexius Dennis Diakogiannis" width="132" height="132" onerror="this.remove()">
-      </div>
-    </div>
-
-    <h1 class="name" data-text="Alexius Dennis DIAKOGIANNIS">Alexius Dennis DIAKOGIANNIS</h1>
-
-    <p class="roles">
-      Software Architect<span class="sep">·</span>Java &amp; AI Technologist<span class="sep">·</span>Public Speaker
-    </p>
-
-    <div class="bio">
-      <p><strong>Dual MSc:</strong> Artificial Intelligence; Information Security &amp; Digital Forensics</p>
-      <p>Founder, <strong>The Dark Side of IT</strong> series</p>
-    </div>
-  </header>
-
-  <section aria-labelledby="s-social">
-    <h2 class="section-title" id="s-social">Social</h2>
-    <ul class="links">
-      <li>
-        <a class="link" href="https://www.tiktok.com/@jee.gr" target="_blank" rel="noopener">
-          <span class="link-body">
-            <span class="icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>
-            </span>
-            <span class="text"><span class="title">TikTok</span><span class="sub">@jee.gr</span></span>
-            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a class="link" href="https://www.youtube.com/@JEE-gr" target="_blank" rel="noopener">
-          <span class="link-body">
-            <span class="icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M10 9l5 3-5 3z" fill="currentColor"/></svg>
-            </span>
-            <span class="text"><span class="title">YouTube</span><span class="sub">@JEE-gr</span></span>
-            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
-          </span>
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <section aria-labelledby="s-writing">
-    <h2 class="section-title" id="s-writing">Writing on</h2>
-    <ul class="links">
-      <li>
-        <a class="link" href="https://jee.gr" target="_blank" rel="noopener">
-          <span class="link-body">
-            <span class="icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>
-            </span>
-            <span class="text"><span class="title">Jee.gr</span><span class="sub">jee.gr</span></span>
-            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
-          </span>
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <section aria-labelledby="s-darkside">
-    <h2 class="section-title" id="s-darkside">The Dark Side of IT · Netweek</h2>
-    <ul class="links">
-      <li>
-        <a class="link article" href="https://issuu.com/boussiasmedia/docs/nw_504_e-magazine?fr=sN2U4ZDg4MTYyMjc" target="_blank" rel="noopener">
-          <span class="link-body">
-            <span class="icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h11l5 5v13H4z"/><path d="M15 3v5h5"/><path d="M8 13h8M8 17h5"/></svg>
-            </span>
-            <span class="text" lang="el">
-              <span class="kicker">Netweek #504</span>
-              <span class="title">The Dark Side of IT: «Ωρέ πού πάμε;»</span>
-              <span class="desc">Πνευματικά δικαιώματα και AI, από μια αίθουσα στην Κρήτη</span>
-              <span class="sub">issuu.com/boussiasmedia</span>
-            </span>
-            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
-          </span>
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>© 2026 Alexius Dennis Diakogiannis</p>
-    <p class="eot">// end_of_transmission</p>
-  </footer>
-
-</main>
-</body>
-</html>
+        <img src="profile.jpg" alt="Alexius Diakogiannis, software architect and speaker" width="132"
